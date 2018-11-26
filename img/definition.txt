@@ -1,0 +1,5 @@
+HTML: langage de programtion pour le web, structuré avec des balises, qui permet d afficher des page web.
+css: code qui permet de gérer le design d une page HTML.
+LOGICIEL
+opensource: dont le code source est accessible et modifiable sous certains conditions.
+propriètere: on paye le droit d'utiliser le logiciel mais pas le modifier.

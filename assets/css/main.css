@@ -1,0 +1,138 @@
+body, html { padding: 0; margin: 0; }
+#header {
+    background-color: white;
+    position:relative;
+    width : 910px;
+    height: 100px;
+    margin: 20px auto;
+    line-height: 50px;
+    text-align: center;
+}
+#images {
+    padding: 5px;
+    overflow: auto;
+    position: relative;
+    background-color: #34495E;
+    width: 99%;
+    margin:5px auto;
+    white-space: nowrap;
+}
+.image {
+    background-color: white;
+    display: inline-block;
+    width: 225px;
+    height: 150px;
+    border: 1px solid #34495E;
+    text-align: center;
+    line-height: 4px;
+    cursor: pointer;
+}
+#grandeBoite{
+    width: 100%;
+    display: flex;
+    /*    border: 1px solid grey;
+         border-radius:5px; */
+}
+#boite2{
+    position: relative;
+    float: right;
+    right: -100px;
+    width: 50%;
+}
+#boiteImg{
+    position: relative;
+    width:550px;
+    height: 400px;
+}
+#resultat
+{
+    margin:auto;
+    position: absolute;
+    z-index: 1;
+    border: none;
+    height:400px;
+    width:550px;
+}
+#divHaut
+{
+    position: absolute;
+    left:0;
+    margin-top: 0px;
+    z-index: 2;
+    font-family: 'Indie Flower';
+}
+#divBas
+{
+    position: absolute;
+    left:0;
+    margin-top:325px;
+    z-index: 2;
+    text-align: center;
+    font-family: 'Indie Flower';
+}
+.txt{
+    font-size: 30px;
+    width: 500px;
+    text-align: center;
+}
+.btn-primary{
+    background-color: #34495E !important;
+    border: 1px solid #34495E !important;
+    color: #39D2B4 !important;
+}
+.btn-primary:hover{
+    background-color: #39D2B4 !important;
+    border: 1px solid #39D2B4 !important;
+    color: #fff !important;
+}
+
+
+
+
+
+
+.input-file-container {
+    position: relative;
+    width: 225px;
+}
+.js .input-file-trigger {
+    display: block;
+    padding: 14px 45px;
+    background: #39D2B4;
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+}
+.js .input-file {
+    position: absolute;
+    top: 0; left: 0;
+    width: 225px;
+    opacity: 0;
+    padding: 14px 0;
+    cursor: pointer;
+}
+.js .input-file:hover + .input-file-trigger,
+.js .input-file:focus + .input-file-trigger,
+.js .input-file-trigger:hover,
+.js .input-file-trigger:focus {
+    background: #34495E;
+    color: #39D2B4;
+}
+
+.file-return {
+    margin: 0;
+}
+.file-return:not(:empty) {
+    margin: 1em 0;
+}
+.js .file-return {
+    font-style: italic;
+    font-size: .9em;
+    font-weight: bold;
+}
+.js .file-return:not(:empty):before {
+    content: "Selected file: ";
+    font-style: normal;
+    font-weight: normal;
+}
